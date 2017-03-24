@@ -106,9 +106,9 @@ class ExtendedText extends WP_Widget {
 
 		<?php
 	}
-	
+
 	function get_internal_links() {
-		$pts = get_post_types( array( 'public' => true ), 'resource' );
+		$pts = get_post_types( array( 'public' => true ), 'objects' );
 		$pt_names = array_keys( $pts );
 	
 		$query = array(
