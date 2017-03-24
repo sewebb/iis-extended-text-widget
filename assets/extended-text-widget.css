@@ -1,0 +1,61 @@
+
+.set-link {
+	margin-bottom: 10px;
+}
+
+.set-link .query-results {
+	position: relative;
+	height: 185px;
+	margin: 0;
+	border: 1px #dfdfdf solid;
+	background: white;
+	overflow: auto;
+}
+
+.set-link ol,
+.set-link ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.set-link li,
+.set-link .query-notice {
+	position: relative;
+	margin-bottom: 0;
+	padding: 4px 6px;
+	border-bottom: 1px solid #f1f1f1;
+	color: #333;
+	cursor: pointer;
+	clear: both;
+}
+
+.set-link .item-title {
+	display: inline-block;
+	width: 80%;
+}
+
+.set-link .item-info {
+	display: block;
+	color: #777;
+	font-size: 9px;
+	text-transform: uppercase;
+}
+
+.set-link li:hover {
+	background: #EAF2FA;
+	color: #151515;
+}
+
+.alternate,
+.alt {
+	background-color: #FCFCFC;
+}
+
+.set-link .toggle-arrow {
+	display: block;
+	margin-bottom: 0;
+	color: #000;
+	font-style: normal;
+	cursor: pointer;
+}
